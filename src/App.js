@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./index.css"
+import Window from "./Windows";
+import React from "react";
 
-function App() {
+export default function App() {
+  var [show, setShow] = React.useState(false);
+
+  function run() {
+    setShow(function () {
+      return !show;
+    });
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <button onClick={run}>Window Size Tracker</button>
+      {show && <Window />}
     </div>
   );
 }
-
-export default App;
