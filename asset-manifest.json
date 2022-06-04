@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/window_resizing_with_useEffect/static/css/main.fc5c2c69.css",
+    "main.js": "/window_resizing_with_useEffect/static/js/main.6ac20b41.js",
+    "index.html": "/window_resizing_with_useEffect/index.html",
+    "main.fc5c2c69.css.map": "/window_resizing_with_useEffect/static/css/main.fc5c2c69.css.map",
+    "main.6ac20b41.js.map": "/window_resizing_with_useEffect/static/js/main.6ac20b41.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc5c2c69.css",
+    "static/js/main.6ac20b41.js"
+  ]
+}
